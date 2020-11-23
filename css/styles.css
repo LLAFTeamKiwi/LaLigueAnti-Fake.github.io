@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+/*Global */
+.heading-site {
+	text-align: center;
+}
+
+html {
+	background-color: #121212 !important;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 70px;
+	line-height: 70px;
+	background-color: rgba(0, 0, 0, 0);
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+
+.header .header-logo {
+	color: #FE4E06;
+	float: left;
+	margin-left: 30px;
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 20px;
+}
+
+.header .header-menu {
+	float: right;
+	margin-right: 30px;
+	font-size: 20px;
+}
+
+.header .header-menu a {
+	margin-right: 15px;
+	color: #FE4E06;
+}
+
+.header .header-menu a:hover {
+	color: white
+}
+
+/*BANNER */
+.banner {
+	margin-top: -20px;
+}
+
+.banner .banner-image {
+	position: relative;
+}
+
+.banner .banner-content {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 30%;
+}
+
+.banner .banner-content h1 {
+	color: #FE4E06;
+}
+
+/*About*/
+.about .about-single-element .icon {
+	font-size: 70px;
+	text-align: center;
+	color: white;
+}
+
+.about .about-single-element {
+	text-align: center;
+	color: white;
+}
+
+.about .about-single-element p {
+	text-align: left;
+	margin-top: 20px;
+	color: white;
+}
+
+h2.subtitle.heading-site {
+	color: white;
+}
+
+p.LLAF {
+	color: white;
+	text-align: center;
+}
+
+/*Rejoindre le staff */
+iframe.GoogleForms {
+	margin-left: 400px;
+}
+
+/*Nous contacter*/
+.title.contact {
+	color: white;
+	font-size: 30px;
+}
+
+
+/*div#content{
+	background-color: #778;	
+	width: 150%
+}
+
+div#content div{
+	display: inline-block;
+	width: 48%;
+}
+
+div#content div h1, p, iframe {
+	margin: 100px
+}
+
+div#content div.leftbox{
+	vertical-align: top;
+}
+
+div#content div.leftbox h1, p{
+	margin: 50px;
+}
+
+div#content div.rightbox .title {
+	margin: 60px;
+	margin-left: 10px;
+}
+
+/*nav.menu-nav ul li.bouton{
+
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav.menu-nav ul li.bouton a{
+	color: white;
+	background: red;
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav.menu-nav ul li.bouton:hover a{
+	color: red;
+	background-color: white;
+	transition: 0.3s all;
+}
